@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fixed-width{
+    width: 1024px;
+    margin:0 auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+    width: 100%;
+}
+.header-section{
+    background: rgb(5, 49, 145);
+}
+.header-logo{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.header-logo img{
+    width: 160px;
+    cursor: pointer;
+    padding-top: 6px;
+    
+}
+.header-menu{
+    float: right;
+    width: 73%;
+    display:block;
+    
+    
+}
+.header-menu ul{
+    list-style: none;
+    text-align: center;
+
+}
+.header-menu ul li{
+  
+    border-right: 1px solid;
+    display: inline-block;
+    
+}
+.header-menu ul li:first-child{
+    border-left: 1px solid black;
+}
+.header-menu ul li a{
+    padding: 20px 20px;
+    display: inline-block;
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+.header-menu ul li a:hover{
+    background:rgb(29, 2, 151);
+}
+/*Banner section*/
+.banner-section{
+    text-align: center;
+    background: url(https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg);
+    padding: 250px 0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center ;
+}
+.banner-section h1{
+    color: rgb(19, 106, 182);
+    font-size: 50px;
+    margin-bottom: 14px;
+}
+.banner-section h3{
+    font-size: 35px;
+    margin-bottom: 24px;
+    color: rgb(66, 95, 221);
+}
+.banner-section button{
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    background: rgb(140, 0, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: .5s;
+}
+.banner-section button:hover{
+    background-color: crimson;
+    color: rgb(138, 6, 143);
+}
+
+/*About section*/
+.about-section{
+    background: rgb(32, 6, 126);
+    padding: 15px 0px;
+
+    box-sizing: border-box;
+}
+.about-section-left{
+    float: left;
+    width: 74%;
+    background: rgb(253, 127, 211);
+    padding: 0 20px;
+}
+.about-section-left h1{
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 2px dotted red;
+}
+.about-img{
+    float: left;
+    margin-right: 10px;
+    width: 40%;
+
+}
+
+.about-info p{
+    text-align: justify;
+}
+.about-section-right{
+    float: right;
+    width: 18%;
+    background: rgb(28, 136, 238);
+    padding: 14px 10px;
+}
+.about-section-right h1{
+    font-size: 60px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: white;
+}
+.about-section-right ul{
+    list-style-position: inside;
+    text-align: center;
+}
+.about-section-right ul li{
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    margin-bottom: 13.8px;
+    cursor: pointer;
+    list-style: none;
+    color: rgb(61, 9, 61);
+}
+
+/*icon footer*/
+.footer-icon{
+    background: #053963;
+    text-align: center;
+    padding: 25px;
+}
+.footer-icon a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    margin: 0 10px;
+    font-size: 25px;
+    transition: .8s;
+}
+.footer-icon a:hover{
+    color:rgb(137, 225, 228)
+}
+
+/*footer start*/
+.footer{
+    text-align: center;
+    padding: 25px;
+    background: #680568;
+}
+.footer p{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
